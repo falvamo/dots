@@ -8,6 +8,7 @@ const CIRCLE_WIDTH = 100.0;
 function setup() {
   createCanvas(windowWidth, windowHeight);  // Set the size of the canvas
   background(255);          // Set the initial background color to white
+  frameRate(2);             // Set the frame rate to 1
 }
 
 function draw() {
